@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log
+yarn.lock
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+.env*.example
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build & Dist
+dist/
+build/
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+
+# Misc
+.cache/
+.turbo/
+*.bak
+*.backup
